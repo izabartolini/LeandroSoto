@@ -1,6 +1,6 @@
 .faleconosco {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   justify-content: initial;
@@ -22,7 +22,7 @@
 .faleconosco p {
   font-family: var(--fonte-padrao);
   color: white;
-  font-size: 35px;
+  font-size: 32px;
   margin-left: 300px;
   margin-right: 300px;
   text-align: center;
@@ -41,7 +41,6 @@
   border-radius: 50px;
   border: none;
   stroke: none;
-  margin-top: 50px;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
 }
 
@@ -70,6 +69,7 @@
   justify-content: center;
   color: white;
   font-size: 40px;
+  font-weight: bold;
 }
 
 .direitosContainer{
@@ -133,15 +133,16 @@
 .texto h1{
   color: var(--dourado);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 70px;
+  font-size: 60px;
   text-align: center;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .texto p{
   text-align: justify;
   font-family: var(--fonte-padrao);
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .imagemLeandro{
@@ -171,19 +172,28 @@
   font-size: 60px;
   color: var(--dourado);
   margin-bottom: 40px;
+  font-weight: bold;
 }
 
 .carrosselContainer{
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border: var(--azul-marinho) 20px solid;
+}
+
+/* .carrosselContainer{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
-  background-color: var(--azul-marinho);
-  height: 70%;
+  width: 50%;
+  background-color: aqua;
+  border: var(--azul-marinho) 20px solid;
+  height: 60%;
 }
 
-.carrosselContainer button{
+.carrosselContainer span{
   background-color: transparent;
   color: white;
   font-size: 60px;
@@ -193,24 +203,9 @@
   margin: 13px;
 }
 
-.carrossel{
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 85%;
-  height: 80%;
-  overflow: hidden;
-}
-
-.hidden{
-  display: none;
-}
-
-.carrossel img{
-  width: 80%;
-  height: 80%;
-}
+.carrosselContainer img{
+  width: 60%;
+} */
 
 .mapa{
   display: flex;
@@ -226,10 +221,7 @@
   font-family: var(--fonte-padrao);
   font-size: 50px;
   color: var(--azul-marinho);
-}
-
-.mapa img{
-  width: 50%;
+  font-weight: bold;
 }
 
 .mapa span{

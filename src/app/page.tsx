@@ -67,7 +67,7 @@ export default function Home() {
 
       <div className={styles.avaliacoes}>
         <h1>Confira as avaliações</h1>
-        <div className={styles.carosselContainer}><Carrossel></Carrossel></div>
+        <Carrossel></Carrossel>
       </div>
 
 

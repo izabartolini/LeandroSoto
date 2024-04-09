@@ -6,13 +6,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
-
 .carrosselItem{
     width: 40vw;
     height: 40vh;
-}
+} 
 
 .carrosselImg{
     width: 1000px;
